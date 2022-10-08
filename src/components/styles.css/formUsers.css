@@ -1,0 +1,80 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7em;
+    border-bottom: 3px solid #f26250;
+    border-right: 3px solid #f26250;
+    border-radius: 10px;
+    padding: 3em;
+    box-shadow: 6px 6px 10px -1px rgba(176, 70, 70, 0.954);
+    background-color: #fff;
+}
+
+.form__title {
+    color: #f26250;
+    font-size: 34px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #f26250;
+    margin-bottom: 20px;
+}
+
+.form__div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label{
+    font-size: 20px;
+    color: #d52710;
+}
+
+.form__input{
+    border-radius: 5px;
+    border: 2px solid rgba(255, 0, 0, 0.241);
+}
+
+.form__birthday{
+    width: 180px;
+}
+
+.modal__close{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f26250;
+    padding: .3em .6em;
+    border: 1px solid;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 300;
+    transition: background-color .3s;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.modal__close:hover{
+    color: #f26250;
+    background-color: #fff;
+}
+
+.form__btn{
+    background-color: #f26250;
+    padding: .5em;
+    border-radius: 5px;
+    transition: background-color .3s;
+    color: white;
+    border: 1px solid #f26250;
+}
+
+.form__btn:hover{
+    color: #f26250;
+    background-color: white;
+    transition: background-color .3s;
+}
+
+@media (min-width: 1300px) {
+    .form {
+        padding: 5em;
+    }
+}
